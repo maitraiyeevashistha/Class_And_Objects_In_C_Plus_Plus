@@ -10,3 +10,7 @@
 *To study classes and objects in C++*
 
 -----
+
+
+
+# NOTE : include that attributes are private by default . Advantages , difference 
