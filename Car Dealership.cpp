@@ -1,3 +1,7 @@
+// EXPERIMENT-11
+// MAITRAIYEE VASHISTHA
+// 24070123057
+// ENTC A3
 #include <iostream>
 #include <string>
 using namespace std;
@@ -7,7 +11,7 @@ public:
     string Brand;
     string Name;
     string Car_ID;
-    string Quantity; // Keeping as string because you had it this way
+    string Quantity; 
     float cost;
 };
 
@@ -16,9 +20,9 @@ int main() {
     cout << "Enter the number of cars you need to input: ";
     cin >> x;
 
-    Car cars[100]; // simple static array big enough for most cases
+    Car cars[100]; 
 
-    for (int i = 0; i < x; i++) { // start from 0
+    for (int i = 0; i < x; i++) { 
         cout << "Enter the Brand of the car: ";
         cin >> cars[i].Brand;
         cout << "Enter the Name of the car: ";
@@ -32,7 +36,7 @@ int main() {
         cout << endl;
     }
 
-    string id; // match Car_ID type
+    string id;
     cout << "Enter the ID of car: ";
     cin >> id;
 
@@ -55,3 +59,22 @@ int main() {
 
     return 0;
 }
+
+/*Output :
+Enter the number of cars you need to input: 2
+Enter the Brand of the car: tayota
+Enter the Name of the car: ABC
+Enter the Car code: DEF
+Enter the Quantity of the car: FIFTY
+Enter the cost of the car: 1500000
+
+Enter the Brand of the car: ghi
+Enter the Name of the car: jkl
+Enter the Car code: mno
+Enter the Quantity of the car: seventy
+Enter the cost of the car: 1200000
+
+Enter the ID of car: defg
+Unfortunately, we do not have that car
+
+*/
