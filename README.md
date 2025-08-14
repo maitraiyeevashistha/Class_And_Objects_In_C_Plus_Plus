@@ -1,4 +1,4 @@
-# Calling a function in C++
+# Classes and Objects in C++
 
 ## Name: Maitraiyee Vashistha
 ## PRN: 24070123057
