@@ -97,7 +97,7 @@ obj.display();  // Call member function using the object
 
 ### Program 2. Car Dealership
 ---
-*Problem statement*
+*Problem statement: To make a class Car and input values in it*
 
 #### Algorithm :
 
@@ -142,7 +142,7 @@ obj.display();  // Call member function using the object
 
 ### Program 3. Calculator
 ---
-*Problem statement:*
+*Problem statement: To create a calculator using classes and functions*
 
 #### Algorithm
 
@@ -170,7 +170,7 @@ obj.display();  // Call member function using the object
 
 ### Program 4. Volume of a Cuboid
 ---
-*Problem statement :*
+*Problem statement : to create a function in a class and to claculate the volume of a given cuboid*
 
 #### Algorithm 
 
@@ -196,7 +196,7 @@ obj.display();  // Call member function using the object
 
 ### Program 5. Area of Rectangle 
 ---
-*Problem statement:*
+*Problem statement: to create a class and find the area of s rectangle*
 
 #### Algorithm
 
@@ -220,7 +220,7 @@ obj.display();  // Call member function using the object
    
 ### Program 6. Class methods 
 ---
-*Problem statement :*
+*Problem statement : to create a class and access/use a function defined in the class in main*
 
 #### Algorithm
 
@@ -239,9 +239,15 @@ obj.display();  // Call member function using the object
 
  - **End** the program.
 
+## Conclusion 
 
+This experiment demonstrated the fundamental concepts of **classes and objects in C++**, which form the foundation of object-oriented programming. The following important points were observed:
 
-# NOTE : include that attributes are private by default . Advantages , difference 
+- A **class** is a blueprint that defines properties (data members) and behaviors (member functions).  
+- An **object** is an instance of a class that allows access to these members.  
+- Member functions can be defined **inside the class** or **outside the class** using the **scope resolution operator (::)**.  
+- Through different programs, the use of classes was applied to real-life problems such as calculating the area of a rectangle, performing arithmetic operations (calculator), storing car details, and finding volume.  
+- By practicing multiple examples, it became clear how objects interact with data and functions, making programs more structured and easier to maintain.  
 
 
 
